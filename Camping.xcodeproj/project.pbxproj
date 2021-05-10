@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,30 @@
 		3E5B11872649670C0090613F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E5B11852649670C0090613F /* Main.storyboard */; };
 		3E5B11892649670E0090613F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E5B11882649670E0090613F /* Assets.xcassets */; };
 		3E5B118C2649670E0090613F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E5B118A2649670E0090613F /* LaunchScreen.storyboard */; };
+		3E5B119C264969CE0090613F /* SF-Pro-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3E5B1196264969CE0090613F /* SF-Pro-Text-Bold.otf */; };
+		3E5B119D264969CE0090613F /* SF-Pro-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3E5B1197264969CE0090613F /* SF-Pro-Text-Medium.otf */; };
+		3E5B119E264969CE0090613F /* SF-Pro-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3E5B1198264969CE0090613F /* SF-Pro-Text-Regular.otf */; };
+		3E5B119F264969CE0090613F /* SF-Pro-Text-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3E5B1199264969CE0090613F /* SF-Pro-Text-Heavy.otf */; };
+		3E5B11A0264969CE0090613F /* SF-Pro-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3E5B119A264969CE0090613F /* SF-Pro-Text-Semibold.otf */; };
+		3E5B11A1264969CE0090613F /* SF-Pro-Text-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3E5B119B264969CE0090613F /* SF-Pro-Text-Light.otf */; };
+		3E5B11B026496B870090613F /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5B11AF26496B870090613F /* Coordinator.swift */; };
+		3E5B11B326496BFE0090613F /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5B11B226496BFE0090613F /* BaseCoordinator.swift */; };
+		3E5B11B726496CA90090613F /* Routing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5B11B626496CA90090613F /* Routing.swift */; };
+		3E5B11BA26496CD40090613F /* Drawable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5B11B926496CD40090613F /* Drawable.swift */; };
+		3E5B11BD26496D5B0090613F /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5B11BC26496D5B0090613F /* Router.swift */; };
+		3E5B11C026496F6D0090613F /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5B11BF26496F6D0090613F /* OnboardingViewController.swift */; };
+		3E5B11C426496FA20090613F /* Storyboardable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5B11C326496FA20090613F /* Storyboardable.swift */; };
+		3E5B11C726496FCB0090613F /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5B11C626496FCB0090613F /* Storyboards.swift */; };
+		3E5B11CA264970A10090613F /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5B11C9264970A10090613F /* OnboardingCoordinator.swift */; };
+		3E5B11CD264970EB0090613F /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E5B11CC264970EB0090613F /* Onboarding.storyboard */; };
+		3E5B11D1264971240090613F /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5B11D0264971240090613F /* OnboardingViewModel.swift */; };
+		3E5B11D52649723A0090613F /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5B11D42649723A0090613F /* AppCoordinator.swift */; };
+		3E5B11DB264974400090613F /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5B11DA264974400090613F /* UIColor+Extensions.swift */; };
+		3E5B11DE2649745F0090613F /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5B11DD2649745F0090613F /* UIFont+Extensions.swift */; };
+		3E5B11E726497A290090613F /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5B11E626497A290090613F /* UIView+Extensions.swift */; };
+		3E5B11EE26497D130090613F /* OnboardingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5B11EC26497D130090613F /* OnboardingCell.swift */; };
+		3E5B11F426497D840090613F /* OnboardingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E5B11F326497D840090613F /* OnboardingCell.xib */; };
+		CA04E6DF0E1B4BC518FA88E0 /* Pods_Camping.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5F38FCA982B5A3CDF2E85F /* Pods_Camping.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +48,32 @@
 		3E5B11882649670E0090613F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E5B118B2649670E0090613F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E5B118D2649670E0090613F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E5B1196264969CE0090613F /* SF-Pro-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Bold.otf"; sourceTree = "<group>"; };
+		3E5B1197264969CE0090613F /* SF-Pro-Text-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Medium.otf"; sourceTree = "<group>"; };
+		3E5B1198264969CE0090613F /* SF-Pro-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Regular.otf"; sourceTree = "<group>"; };
+		3E5B1199264969CE0090613F /* SF-Pro-Text-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Heavy.otf"; sourceTree = "<group>"; };
+		3E5B119A264969CE0090613F /* SF-Pro-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Semibold.otf"; sourceTree = "<group>"; };
+		3E5B119B264969CE0090613F /* SF-Pro-Text-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Light.otf"; sourceTree = "<group>"; };
+		3E5B11AF26496B870090613F /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		3E5B11B226496BFE0090613F /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		3E5B11B626496CA90090613F /* Routing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routing.swift; sourceTree = "<group>"; };
+		3E5B11B926496CD40090613F /* Drawable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawable.swift; sourceTree = "<group>"; };
+		3E5B11BC26496D5B0090613F /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		3E5B11BF26496F6D0090613F /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		3E5B11C326496FA20090613F /* Storyboardable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboardable.swift; sourceTree = "<group>"; };
+		3E5B11C626496FCB0090613F /* Storyboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
+		3E5B11C9264970A10090613F /* OnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinator.swift; sourceTree = "<group>"; };
+		3E5B11CC264970EB0090613F /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		3E5B11D0264971240090613F /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		3E5B11D42649723A0090613F /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		3E5B11DA264974400090613F /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		3E5B11DD2649745F0090613F /* UIFont+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
+		3E5B11E626497A290090613F /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		3E5B11EC26497D130090613F /* OnboardingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCell.swift; sourceTree = "<group>"; };
+		3E5B11F326497D840090613F /* OnboardingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingCell.xib; sourceTree = "<group>"; };
+		C99020606E6A098B853E426B /* Pods-Camping.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Camping.release.xcconfig"; path = "Target Support Files/Pods-Camping/Pods-Camping.release.xcconfig"; sourceTree = "<group>"; };
+		EEAE672B8A5E81480E35696E /* Pods-Camping.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Camping.debug.xcconfig"; path = "Target Support Files/Pods-Camping/Pods-Camping.debug.xcconfig"; sourceTree = "<group>"; };
+		EF5F38FCA982B5A3CDF2E85F /* Pods_Camping.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Camping.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA04E6DF0E1B4BC518FA88E0 /* Pods_Camping.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +93,8 @@
 			children = (
 				3E5B117E2649670C0090613F /* Camping */,
 				3E5B117D2649670C0090613F /* Products */,
+				D19AEBDFE14AEA7C1AB54BE9 /* Pods */,
+				FA89A8D03B5C81449FA0B58C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +109,151 @@
 		3E5B117E2649670C0090613F /* Camping */ = {
 			isa = PBXGroup;
 			children = (
-				3E5B117F2649670C0090613F /* AppDelegate.swift */,
-				3E5B11812649670C0090613F /* SceneDelegate.swift */,
+				3E5B11A426496A970090613F /* Modules */,
+				3E5B11AE26496B790090613F /* Coordinator */,
+				3E5B11B526496C920090613F /* Router */,
+				3E5B1194264969870090613F /* Shared */,
+				3E5B11A326496A810090613F /* Supporting */,
 				3E5B11832649670C0090613F /* ViewController.swift */,
 				3E5B11852649670C0090613F /* Main.storyboard */,
-				3E5B11882649670E0090613F /* Assets.xcassets */,
 				3E5B118A2649670E0090613F /* LaunchScreen.storyboard */,
 				3E5B118D2649670E0090613F /* Info.plist */,
 			);
 			path = Camping;
+			sourceTree = "<group>";
+		};
+		3E5B1194264969870090613F /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				3E5B11D8264973F10090613F /* Extensions */,
+				3E5B11C226496F990090613F /* Utils */,
+				3E5B11952649698E0090613F /* Fonts */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		3E5B11952649698E0090613F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3E5B1196264969CE0090613F /* SF-Pro-Text-Bold.otf */,
+				3E5B1199264969CE0090613F /* SF-Pro-Text-Heavy.otf */,
+				3E5B119B264969CE0090613F /* SF-Pro-Text-Light.otf */,
+				3E5B1197264969CE0090613F /* SF-Pro-Text-Medium.otf */,
+				3E5B1198264969CE0090613F /* SF-Pro-Text-Regular.otf */,
+				3E5B119A264969CE0090613F /* SF-Pro-Text-Semibold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		3E5B11A326496A810090613F /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				3E5B11812649670C0090613F /* SceneDelegate.swift */,
+				3E5B11882649670E0090613F /* Assets.xcassets */,
+				3E5B117F2649670C0090613F /* AppDelegate.swift */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		3E5B11A426496A970090613F /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				3E5B11A526496A9E0090613F /* SignFlow */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		3E5B11A526496A9E0090613F /* SignFlow */ = {
+			isa = PBXGroup;
+			children = (
+				3E5B11A626496AB90090613F /* Onboarding */,
+			);
+			path = SignFlow;
+			sourceTree = "<group>";
+		};
+		3E5B11A626496AB90090613F /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				3E5B11EA26497CF00090613F /* Views */,
+				3E5B11CC264970EB0090613F /* Onboarding.storyboard */,
+				3E5B11BF26496F6D0090613F /* OnboardingViewController.swift */,
+				3E5B11D0264971240090613F /* OnboardingViewModel.swift */,
+				3E5B11C9264970A10090613F /* OnboardingCoordinator.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		3E5B11AE26496B790090613F /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				3E5B11AF26496B870090613F /* Coordinator.swift */,
+				3E5B11B226496BFE0090613F /* BaseCoordinator.swift */,
+				3E5B11D42649723A0090613F /* AppCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		3E5B11B526496C920090613F /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				3E5B11B626496CA90090613F /* Routing.swift */,
+				3E5B11BC26496D5B0090613F /* Router.swift */,
+				3E5B11B926496CD40090613F /* Drawable.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		3E5B11C226496F990090613F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3E5B11C626496FCB0090613F /* Storyboards.swift */,
+				3E5B11C326496FA20090613F /* Storyboardable.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		3E5B11D8264973F10090613F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3E5B11DA264974400090613F /* UIColor+Extensions.swift */,
+				3E5B11DD2649745F0090613F /* UIFont+Extensions.swift */,
+				3E5B11E626497A290090613F /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3E5B11EA26497CF00090613F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3E5B11EB26497CFB0090613F /* OnboardingCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3E5B11EB26497CFB0090613F /* OnboardingCell */ = {
+			isa = PBXGroup;
+			children = (
+				3E5B11EC26497D130090613F /* OnboardingCell.swift */,
+				3E5B11F326497D840090613F /* OnboardingCell.xib */,
+			);
+			path = OnboardingCell;
+			sourceTree = "<group>";
+		};
+		D19AEBDFE14AEA7C1AB54BE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EEAE672B8A5E81480E35696E /* Pods-Camping.debug.xcconfig */,
+				C99020606E6A098B853E426B /* Pods-Camping.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FA89A8D03B5C81449FA0B58C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF5F38FCA982B5A3CDF2E85F /* Pods_Camping.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +263,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E5B11902649670E0090613F /* Build configuration list for PBXNativeTarget "Camping" */;
 			buildPhases = (
+				039E6D3975E66AAF3D4117F9 /* [CP] Check Pods Manifest.lock */,
 				3E5B11782649670C0090613F /* Sources */,
 				3E5B11792649670C0090613F /* Frameworks */,
 				3E5B117A2649670C0090613F /* Resources */,
+				522E8564527CF06A46E16532 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,21 +315,86 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E5B119E264969CE0090613F /* SF-Pro-Text-Regular.otf in Resources */,
+				3E5B11F426497D840090613F /* OnboardingCell.xib in Resources */,
+				3E5B11CD264970EB0090613F /* Onboarding.storyboard in Resources */,
 				3E5B118C2649670E0090613F /* LaunchScreen.storyboard in Resources */,
 				3E5B11892649670E0090613F /* Assets.xcassets in Resources */,
+				3E5B119F264969CE0090613F /* SF-Pro-Text-Heavy.otf in Resources */,
+				3E5B11A0264969CE0090613F /* SF-Pro-Text-Semibold.otf in Resources */,
+				3E5B11A1264969CE0090613F /* SF-Pro-Text-Light.otf in Resources */,
+				3E5B119C264969CE0090613F /* SF-Pro-Text-Bold.otf in Resources */,
+				3E5B119D264969CE0090613F /* SF-Pro-Text-Medium.otf in Resources */,
 				3E5B11872649670C0090613F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		039E6D3975E66AAF3D4117F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Camping-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		522E8564527CF06A46E16532 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Camping/Pods-Camping-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Camping/Pods-Camping-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Camping/Pods-Camping-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3E5B11782649670C0090613F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E5B11BD26496D5B0090613F /* Router.swift in Sources */,
+				3E5B11DB264974400090613F /* UIColor+Extensions.swift in Sources */,
+				3E5B11DE2649745F0090613F /* UIFont+Extensions.swift in Sources */,
+				3E5B11CA264970A10090613F /* OnboardingCoordinator.swift in Sources */,
+				3E5B11B326496BFE0090613F /* BaseCoordinator.swift in Sources */,
+				3E5B11B026496B870090613F /* Coordinator.swift in Sources */,
+				3E5B11E726497A290090613F /* UIView+Extensions.swift in Sources */,
+				3E5B11B726496CA90090613F /* Routing.swift in Sources */,
+				3E5B11C726496FCB0090613F /* Storyboards.swift in Sources */,
+				3E5B11D52649723A0090613F /* AppCoordinator.swift in Sources */,
+				3E5B11D1264971240090613F /* OnboardingViewModel.swift in Sources */,
+				3E5B11BA26496CD40090613F /* Drawable.swift in Sources */,
 				3E5B11842649670C0090613F /* ViewController.swift in Sources */,
 				3E5B11802649670C0090613F /* AppDelegate.swift in Sources */,
+				3E5B11EE26497D130090613F /* OnboardingCell.swift in Sources */,
+				3E5B11C026496F6D0090613F /* OnboardingViewController.swift in Sources */,
+				3E5B11C426496FA20090613F /* Storyboardable.swift in Sources */,
 				3E5B11822649670C0090613F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +539,7 @@
 		};
 		3E5B11912649670E0090613F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEAE672B8A5E81480E35696E /* Pods-Camping.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +558,7 @@
 		};
 		3E5B11922649670E0090613F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C99020606E6A098B853E426B /* Pods-Camping.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

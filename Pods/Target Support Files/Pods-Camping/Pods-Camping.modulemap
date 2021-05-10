@@ -1,0 +1,6 @@
+framework module Pods_Camping {
+  umbrella header "Pods-Camping-umbrella.h"
+
+  export *
+  module * { export * }
+}
