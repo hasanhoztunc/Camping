@@ -17,18 +17,20 @@ final class AppCoordinator: BaseCoordinator {
         navigationBar.setBackgroundImage(UIImage(), for: .default)
         navigationBar.shadowImage = UIImage()
         navigationBar.barTintColor = .white
-        navigationBar.tintColor = .white
+        navigationBar.tintColor = .black
         navigationBar.titleTextAttributes = [
-            NSAttributedString.Key.font: UIFont.SFPo(weight: .Bold, size: 18),
+            NSAttributedString.Key.font: UIFont.SFPo(weight: .Bold, size: 20),
             NSAttributedString.Key.foregroundColor: UIColor.black
         ]
         navigationBar.isTranslucent = false
         
-//        let backImage = UIImage(named: "ic-back")!
-//
-//        navigationBar.backIndicatorImage = backImage
-//        navigationBar.backIndicatorTransitionMaskImage = backImage
+        let backImage = UIImage(named: "ic-chevron-left")!
+
+        navigationBar.backIndicatorImage = backImage
+        navigationBar.backIndicatorTransitionMaskImage = backImage
+        
         navigationBar.backItem?.title = nil
+        UIBarButtonItem.appearance().setBackButtonTitlePositionAdjustment(UIOffset(horizontal: -1000, vertical: 0), for:UIBarMetrics.default)
         
         return navigationController
     }()

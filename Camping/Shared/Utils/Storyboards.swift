@@ -8,4 +8,10 @@
 enum Storyboards: String {
     case Main
     case Onboarding
+    case Login
+    case Register
+    case ForgotPassword
+    case ConfirmOTP
+    case CreateNewPassword
+    case NewPasswordCreated
 }
